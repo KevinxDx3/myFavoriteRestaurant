@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Registrar Restaurante
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-item>
+    <ion-label position="stacked">Nombre</ion-label>
+    <ion-input [(ngModel)]="newRestaurant.name" placeholder="Nombre del restaurante"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Descripción</ion-label>
+    <ion-textarea [(ngModel)]="newRestaurant.description" placeholder="Descripción del restaurante"></ion-textarea>
+  </ion-item>
+  <ion-button (click)="addPhotoToGallery()">Tomar Foto</ion-button>
+  <ion-button (click)="addRestaurant()">Agregar Restaurante</ion-button>
+
+</ion-content>

@@ -1,0 +1,25 @@
+<!-- tab1.page.html -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Restaurantes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+    <ion-item *ngFor="let restaurant of restaurants">
+      <ion-thumbnail slot="start">
+        <img [src]="restaurant.image" alt="restaurant-image">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ restaurant.name }}</h2>
+        <p>{{ restaurant.description }}</p>
+      </ion-label>
+      <ion-button (click)="presentActionSheet()" slot="end">Opciones</ion-button>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>
