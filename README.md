@@ -2,6 +2,8 @@
 
 La aplicacion permite registrar restaurantes, y el usuario visualizar el tipo de restaurante (BackEnd):
 
+LINK APK: https://drive.google.com/file/d/1N47DRp2XiFFHfr1Xd5koy-dDENwqF2Rr/view?usp=sharing
+
 #LOGIN
 
 Usuario: Konkermoreno@gmail.com  Contraseña: konker5002
